@@ -1,0 +1,35 @@
+#UserChatBox {
+  background-color: rgb(117, 243, 226);
+  margin-right: 10px;
+  float: right;
+  word-wrap: break-word;
+}
+
+#ComputerChatBox{
+  background-color: rgb(199, 197, 197);
+  margin-left: 10px;
+  float:left;
+}
+
+#UserChatBox,
+  #ComputerChatBox{
+    max-width: 60%;
+    border-radius: 15px;
+    padding:5px 10px;
+  }
+
+html, body{
+  height: 100%;
+}
+
+#ChatBox{
+  overflow:scroll;
+  height: 90%;
+}
+
+#dateTime{
+  text-align: center;
+  color: grey;
+  font-size: 10px;
+  clear:both;/*no floating elements allowed on either side */
+}
